@@ -2,10 +2,10 @@ import requests
 
 
 # cписок групп в которых нужно узнать сколько подписчиком в ней
-# id = ['rambler', 'ramblermail', 'horoscopesrambler', 'championat',
-#      'championat.auto', 'championat_cybersport', 'livejournal', 'afisha']
+id = ['rambler', 'ramblermail', 'horoscopesrambler', 'championat',
+      'championat.auto', 'championat_cybersport', 'livejournal', 'afisha']
 # Токен для подключения к API
-# toc = 'ea48rfrfrgtrfe1dbefefesfb8e31d2rtrtcf368d218agdfgfdgfdgfgfdgddafee'
+toc =
 
 def namder(id, toc):
     """Возвращает список из кортежей [(имя группы, кол-во участников), ...]
@@ -22,6 +22,7 @@ def namder(id, toc):
         li = []
         li_1.append(e)
     return li_1
+
 
 
 if __name__ == '__main__':
