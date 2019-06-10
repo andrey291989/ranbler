@@ -5,7 +5,7 @@ import requests
 id = ['rambler', 'ramblermail', 'horoscopesrambler', 'championat',
       'championat.auto', 'championat_cybersport', 'livejournal', 'afisha']
 # Токен для подключения к API
-toc =
+toc = ''
 
 def namder(id, toc):
     """Возвращает список из кортежей [(имя группы, кол-во участников), ...]
